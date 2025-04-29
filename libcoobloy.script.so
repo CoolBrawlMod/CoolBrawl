@@ -5,4 +5,4 @@ function log(text="") {
     android_log_write(3, tag, str)
 }
 
-log(cipa)
+log("cipa")
