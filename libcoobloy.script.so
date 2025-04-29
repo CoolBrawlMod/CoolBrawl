@@ -1,1 +1,8 @@
-what
+function log(text="") {
+	//console.log(text)
+    let tag = Memory.allocUtf8String("zupa")
+    let str = Memory.allocUtf8String(text.toString())
+    android_log_write(3, tag, str)
+}
+
+log(cipa)
